@@ -1,7 +1,12 @@
 {
   "name": "yardex-server",
   "version": "1.0.0",
+  "description": "YardEx API — anonymous port capacity exchange for the Port of Zeebrugge",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["port", "zeebrugge", "logistics", "marketplace", "capacity"],
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
