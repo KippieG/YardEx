@@ -28,7 +28,7 @@ export default function Layout({ children }) {
         <div className="sidebar-logo">
           <div className="logo-icon">⚓</div>
           <div>
-            <div className="logo-title">YSS</div>
+            <div className="logo-title">YardEx</div>
             <div className="logo-sub">Zeebrugge</div>
           </div>
         </div>

@@ -20,8 +20,8 @@ app.use('/api/requests', requestRoutes);
 app.use('/api/deals', dealRoutes);
 app.use('/api/notifications', notificationRoutes);
 
-app.get('/api/health', (req, res) => res.json({ status: 'ok', service: 'Yard & Slot Sharer — Zeebrugge' }));
+app.get('/api/health', (req, res) => res.json({ status: 'ok', service: 'YardEx API — Zeebrugge' }));
 
 app.listen(PORT, () => {
-  console.log(`YSS API draait op http://localhost:${PORT}`);
+  console.log(`YardEx API draait op http://localhost:${PORT}`);
 });

@@ -3,7 +3,7 @@ services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_DB: yardslot
+      POSTGRES_DB: yardex
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
     ports:

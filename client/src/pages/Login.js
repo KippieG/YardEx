@@ -31,8 +31,8 @@ export default function Login() {
       <div className="auth-card">
         <div className="auth-header">
           <div className="auth-logo">⚓</div>
-          <h1>YSS Zeebrugge</h1>
-          <p>Yard & Slot Sharer — Anonieme capaciteitsmarkt</p>
+          <h1>YardEx</h1>
+          <p>Anonieme havenruimtebeurs — Zeebrugge</p>
         </div>
 
         <form onSubmit={handleSubmit}>

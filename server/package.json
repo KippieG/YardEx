@@ -1,5 +1,5 @@
 {
-  "name": "yard-slot-sharer-server",
+  "name": "yardex-server",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
